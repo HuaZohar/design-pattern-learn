@@ -6,6 +6,7 @@ package cn.learn.jdkproxy;
  */
 public class JdkApp {
     public static void main(String[] args) {
+
         Tank tank = new Tank();
 
         InvocationHandler handler = new TimeHandler(tank);
